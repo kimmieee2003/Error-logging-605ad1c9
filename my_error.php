@@ -1,5 +1,4 @@
 <?php
-
 function countDown() {
     $i = 12; 
     try {
