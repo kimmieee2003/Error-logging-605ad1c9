@@ -26,6 +26,7 @@ function countDown()
         }
     } 
 }
+
 echo countDown();
 ?>
 </body>
