@@ -19,12 +19,13 @@ function countDown()
         } else {
             $error_message = "er is iets fout gegaan!"; 
             $log_file = "./errors.log"; 
-            ini_set("log_errors", TRUE);  
+            ini_set("log_errors", true);  
             ini_set('error_log', $log_file); 
             error_log($error_message, 3, $log_file); 
         }
     } 
 }
+
 echo countDown();
 ?>
 </body>
